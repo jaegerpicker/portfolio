@@ -1,5 +1,5 @@
 deployment:
   staging:
     branch: master
-      heroku:
-        appname: portfolio-shawn-campbell
+    heroku:
+      appname: portfolio-shawn-campbell
