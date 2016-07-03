@@ -3,3 +3,8 @@ deployment:
     branch: master
     heroku:
       appname: portfolio-shawn-campbell
+
+general:
+  artifacts:
+    - "coverage"
+    - $CIRCLE_TEST_REPORTS
