@@ -79,9 +79,9 @@ var gulp = require('gulp'),
 		registerDefinitions = loadTasks('./tasks-gulp/register');
 
 	// (ensure that a default task exists)
-	if (!registerDefinitions.default) {
-		registerDefinitions.default = function (gulp) { gulp.task('default', []); };
-	}
+	//if (!registerDefinitions.default) {
+	//	registerDefinitions.default = function (gulp) { gulp.task('default', []); };
+	//}
 
 	// Run task functions to configure Gulp.
 	invokeConfigFn(taskConfigurations);

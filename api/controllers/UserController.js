@@ -7,7 +7,7 @@
 
 module.exports = {
 	login: function(req, res) {
-    console.log(req.body);
+    
     if(req.body.name === 'test' && req.body.password === 'test') {
       return res.redirect('/mypage');
     } else {

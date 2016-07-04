@@ -13,6 +13,10 @@ module.exports = function(gulp, plugins) {
           mochaFile: process.env.CIRCLE_TEST_REPORTS + '/junit/results.xml'
         }
       }))
-      .pipe(plugins.istanbul.writeReports());
+      .pipe(plugins.istanbul.writeReports())
+      .pipe(plugins.notify({message: 'Coverage report written, testing complete'}))
+      .once('end', function(){
+        process.exit();
+      });
   });
 };
