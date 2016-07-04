@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.044" tests="2" failures="2">
-  <testsuite name="Root Suite" timestamp="2016-07-03T20:49:40" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="0.063" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2016-07-04T04:50:12" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="UserController" timestamp="2016-07-03T20:49:40" tests="0" failures="0" time="0">
+  <testsuite name="UserController" timestamp="2016-07-04T04:50:13" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="#login()" timestamp="2016-07-03T20:49:40" tests="1" failures="1" time="0.044">
-    <testcase name="Root Suite UserController #login() should redirect to /mypage" time="0.044" classname="should redirect to /mypage">
+  <testsuite name="#login()" timestamp="2016-07-04T04:50:13" tests="1" failures="1" time="0.054">
+    <testcase name="Root Suite UserController #login() should redirect to /mypage" time="0.054" classname="should redirect to /mypage">
       <failure><![CDATA[Error: expected 302 "Found", got 404 "Not Found"
     at Test._assertStatus (node_modules/supertest/lib/test.js:232:12)
     at Test._assertFunction (node_modules/supertest/lib/test.js:247:11)
@@ -14,12 +14,10 @@
     at emitCloseNT (net.js:1514:8)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="UserModel" timestamp="2016-07-03T20:49:40" tests="0" failures="0" time="0">
+  <testsuite name="UserModel" timestamp="2016-07-04T04:50:13" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="#find()" timestamp="2016-07-03T20:49:40" tests="1" failures="1" time="0">
-    <testcase name="Root Suite UserModel #find() should check find function" time="0" classname="should check find function">
-      <failure><![CDATA[ReferenceError: User is not defined
-    at Context.<anonymous> (test/integration/models/User.test.js:4:7)]]></failure>
+  <testsuite name="#find()" timestamp="2016-07-04T04:50:13" tests="1" failures="0" time="0.009">
+    <testcase name="Root Suite UserModel #find() should check find function" time="0.009" classname="should check find function">
     </testcase>
   </testsuite>
 </testsuites>
