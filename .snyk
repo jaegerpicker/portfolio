@@ -1,0 +1,96 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails-disk > waterline-criteria > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails-mssqlserver > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machine > rttc > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-prompts > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-prompts > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-prompts > machine > rttc > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-prompts > machine > switchback > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-prompts > inquirer > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-fs > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-strings > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-strings > browserify-transform-machinepack > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-util > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-util > browserify-transform-machinepack > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machine > rttc > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machine > switchback > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails-disk > waterline-cursor > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machine > rttc > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machine > switchback > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > rttc > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > machine > switchback > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > machine > rttc > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machine > rttc > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machine > switchback > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machinepack-urls > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machinepack-urls > machine > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails > captains-log > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails > sails-disk > waterline-criteria > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails > sails-disk > waterline-cursor > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails > include-all > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails > rttc > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails > sails-util > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
+    - sails > skipper > lodash:
+        patched: '2018-07-03T07:00:35.036Z'
