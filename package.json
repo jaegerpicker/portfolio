@@ -53,7 +53,7 @@
     "sails": "~0.12.3",
     "sails-disk": "~0.10.9",
     "sails-mssqlserver": "^0.14.1",
-    "supertest": "^1.2.0",
+    "supertest": "^3.0.0",
     "why-is-node-running": "^1.2.2"
   },
   "scripts": {
