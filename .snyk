@@ -1,0 +1,189 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - sails > @sailshq/express > @sailshq/connect > finalhandler > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machine > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > send > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > grunt-contrib-watch > tiny-lr > body-parser > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > serve-index > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > morgan > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - gulp-livereload > mini-lr > body-parser > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > express-session > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > @sailshq/body-parser > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > compression > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > connect-timeout > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > serve-static > send > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > debug:
+        patched: '2019-03-31T08:21:41.936Z'
+  'npm:lodash:20180130':
+    - sails-mssqlserver > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails-disk > waterline-cursor > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > sails-util > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > skipper > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-prompts > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > captains-log > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > include-all > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > rttc > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails-disk > waterline-criteria > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > sails-disk > waterline-cursor > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machine > rttc > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-prompts > inquirer > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-prompts > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-strings > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-util > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-fs > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > sails-disk > waterline-criteria > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-strings > browserify-transform-machinepack > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-util > browserify-transform-machinepack > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machine > rttc > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-prompts > machine > rttc > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machinepack-urls > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machine > switchback > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-prompts > machine > switchback > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > rttc > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machinepack-urls > machine > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machine > switchback > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machine > switchback > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machine > rttc > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machine > rttc > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > machine > switchback > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+    - machinepack-sailsgulpify > machinepack-npm > machinepack-process > machinepack-json > machine > rttc > lodash:
+        patched: '2019-03-31T08:21:41.936Z'
+  'npm:mime:20170907':
+    - sails > @sailshq/express > send > mime:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > serve-static > send > mime:
+        patched: '2019-03-31T08:21:41.936Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-03-31T08:21:41.936Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-03-31T08:21:41.936Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2019-03-31T08:21:41.936Z'
+  'npm:ms:20170412':
+    - machinepack-sailsgulpify > machine > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > send > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - gulp-livereload > mini-lr > body-parser > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > send > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > connect-timeout > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > serve-index > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > @sailshq/body-parser > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > morgan > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > connect-timeout > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > finalhandler > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > serve-static > send > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > compression > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > express-session > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > serve-static > send > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > serve-favicon > ms:
+        patched: '2019-03-31T08:21:41.936Z'
+  'npm:negotiator:20160616':
+    - sails > @sailshq/express > @sailshq/connect > compression > accepts > negotiator:
+        patched: '2019-03-31T08:21:41.936Z'
+    - sails > @sailshq/express > @sailshq/connect > serve-index > accepts > negotiator:
+        patched: '2019-03-31T08:21:41.936Z'
+  'npm:tar:20151103':
+    - machinepack-sailsgulpify > machinepack-npm > tar:
+        patched: '2019-03-31T08:21:41.936Z'
+  'npm:uglify-js:20151024':
+    - gulp-jade > jade > transformers > uglify-js:
+        patched: '2019-03-31T08:21:41.936Z'
