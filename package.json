@@ -50,7 +50,7 @@
     "rc": "1.0.1",
     "rimraf": "^2.5.2",
     "run-sequence": "^1.2.2",
-    "sails": "~0.12.3",
+    "sails": "~1.2.1",
     "sails-disk": "~0.10.9",
     "sails-mssqlserver": "^0.14.1",
     "supertest": "^1.2.0",
