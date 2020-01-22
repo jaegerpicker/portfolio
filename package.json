@@ -26,7 +26,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-if": "^2.0.1",
     "gulp-imagemin": "^3.0.1",
-    "gulp-inject": "^4.1.0",
+    "gulp-inject": "^5.0.4",
     "gulp-istanbul": "^1.0.0",
     "gulp-jade": "^1.1.0",
     "gulp-jshint": "^2.0.1",
