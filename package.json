@@ -45,7 +45,7 @@
     "include-all": "~0.1.6",
     "jshint": "^2.9.2",
     "machinepack-sailsgulpify": "^1.0.6",
-    "mocha": "^2.5.3",
+    "mocha": "^7.1.1",
     "mocha-junit-reporter": "^1.11.1",
     "rc": "1.0.1",
     "rimraf": "^2.5.2",
