@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gulp-istanbul > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - gulp-jshint > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - jshint > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - machinepack-sailsgulpify > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - gulp-istanbul > istanbul-threshold-checker > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - sails > grunt-contrib-less > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - sails > grunt-contrib-uglify > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - sails > grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - sails > sails-generate > sails-generate-generator > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - sails > skipper > async > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
+    - sails > grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2020-05-01T08:23:19.405Z'
